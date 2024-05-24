@@ -22,8 +22,3 @@ line_count
 head_df = df.head(line_count)
 
 head_df
-
-st.secrets['spell']
-st.secrets.spell
-
-st.secrets.some_magic_api.key
