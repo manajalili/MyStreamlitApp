@@ -16,9 +16,15 @@ df = pd.DataFrame({
 # to display in the dataframe
 # the selected value is returned by st.slider
 line_count = st.slider('Select a line count', 1, 10, 3)
-line_count
 
 # and used to select the displayed lines
 head_df = df.head(line_count)
 
 head_df
+
+st.write('hello 👋')
+
+spell = st.secrets['spell']
+spell
+key = st.secrets.some_magic_api.key
+key
